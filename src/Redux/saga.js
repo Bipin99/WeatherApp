@@ -9,7 +9,7 @@ import { FETCH_WEATHER } from "../constants/index";
 // Function to fetch weather data from the API
 function fetchWeatherApi(city) {
    
-console.log(import.meta.env.VITE_APIKEY, "apikey saga");
+
   //get the api key from .env file
   const apiKey = import.meta.env.VITE_APIKEY
   
